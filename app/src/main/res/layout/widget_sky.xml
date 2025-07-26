@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFF3F8"
+    android:padding="12dp"
+    android:minHeight="70dp"
+    android:minWidth="146dp">
+
+    <!-- Panda Mood Icon -->
+    <ImageView
+        android:id="@+id/pandaIcon"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:src="@drawable/panda_full" />
+
+    <!-- Battery Percentage Text -->
+    <TextView
+        android:id="@+id/batteryPercentage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="85%"
+        android:textSize="24sp"
+        android:textColor="#FF69B4"
+        android:fontFamily="@font/gloria_hallelujah" />
+
+    <!-- Battery Bar -->
+    <ProgressBar
+        android:id="@+id/batteryBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="120dp"
+        android:layout_height="12dp"
+        android:progress="85"
+        android:max="100"
+        android:progressDrawable="@drawable/battery_progress_drawable"
+        android:background="@android:color/darker_gray" />
+</LinearLayout>
