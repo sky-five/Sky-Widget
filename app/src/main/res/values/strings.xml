@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Sky Widget</string>
+    <string name="todo">TODO</string>
+    <string name="_85">85%</string>
 </resources>

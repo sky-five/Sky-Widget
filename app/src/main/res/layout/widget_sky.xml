@@ -7,21 +7,25 @@
     android:background="#FFF3F8"
     android:padding="12dp"
     android:minHeight="70dp"
-    android:minWidth="146dp">
+    android:minWidth="146dp"
+    android:clickable="true"
+    android:focusable="true"
+    >
 
     <!-- Panda Mood Icon -->
     <ImageView
         android:id="@+id/pandaIcon"
         android:layout_width="72dp"
         android:layout_height="72dp"
-        android:src="@drawable/panda_full" />
+        android:contentDescription="@string/todo"
+        android:src="@drawable/panda_med" />
 
     <!-- Battery Percentage Text -->
     <TextView
         android:id="@+id/batteryPercentage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="85%"
+        android:text="@string/_85"
         android:textSize="24sp"
         android:textColor="#FF69B4"
         android:fontFamily="@font/gloria_hallelujah" />
@@ -35,5 +39,5 @@
         android:progress="85"
         android:max="100"
         android:progressDrawable="@drawable/battery_progress_drawable"
-        android:background="@android:color/darker_gray" />
+        />
 </LinearLayout>
