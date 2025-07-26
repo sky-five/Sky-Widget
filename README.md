@@ -53,7 +53,11 @@ This is a personal hobby project, but feel free to fork it or share ideas for:
 
 ## 📸 Screenshots
 
-> Coming soon! Once the first working version is complete 💫
+![Untitled](https://github.com/user-attachments/assets/f5970360-18e8-4a6d-89b6-45fee9db8ce9)
+
+![Untitled-1](https://github.com/user-attachments/assets/1f27ef50-7eee-45f3-8cd0-f30443e1ec7c)
+
+![Untitled](https://github.com/user-attachments/assets/8ad8dcd4-0639-4049-b8f9-eb1bd727de8f)
 
 ---
 
